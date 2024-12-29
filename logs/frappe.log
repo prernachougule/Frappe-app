@@ -1,0 +1,6 @@
+2024-12-29 16:33:09,829 ERROR frappe New Exception collected in error log
+Site: inventory.localhost
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Stock Per Warehouse","name":"new-stock-per-warehouse-dmousuagcg","__islocal":1,"__unsaved":1,"owner":"Administrator","warehouse":"ERP","item":"Disk","stock_level":677}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-12-29 17:01:57,125 ERROR frappe New Exception collected in error log
+Site: inventory.localhost
+Form Dict: {'doctype': 'Stock Transactions', 'name': 'a0sr06pjv6', 'cmd': 'frappe.desk.form.load.getdoc'}

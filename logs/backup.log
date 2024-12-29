@@ -1,0 +1,20 @@
+set -o pipefail; /usr/bin/mariadb-dump --user=_2095fdc45b827efc --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _2095fdc45b827efc | /usr/bin/gzip >> ./prerna.com/private/backups/20241229_120002-prerna_com-database.sql.gz
+
+Backup Summary for prerna.com at 2024-12-29 12:00:04.789550
+Config  : ./prerna.com/private/backups/20241229_120002-prerna_com-site_config_backup.json 94.0B
+Database: ./prerna.com/private/backups/20241229_120002-prerna_com-database.sql.gz         1.1MiB
+Backup for Site prerna.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_3da808818b57a604 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _3da808818b57a604 | /usr/bin/gzip >> ./inventory.localhost/private/backups/20241229_180002-inventory_localhost-database.sql.gz
+
+Backup Summary for inventory.localhost at 2024-12-29 18:00:04.349648
+Config  : ./inventory.localhost/private/backups/20241229_180002-inventory_localhost-site_config_backup.json 97.0B
+Database: ./inventory.localhost/private/backups/20241229_180002-inventory_localhost-database.sql.gz         300.0KiB
+Backup for Site inventory.localhost has been successfully completed
+File ./prerna.com/private/backups/20241229_120002-prerna_com-database.sql.gz is recent
+File ./prerna.com/private/backups/20241229_120002-prerna_com-site_config_backup.json is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_2095fdc45b827efc --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _2095fdc45b827efc | /usr/bin/gzip >> ./prerna.com/private/backups/20241229_180004-prerna_com-database.sql.gz
+
+Backup Summary for prerna.com at 2024-12-29 18:00:10.070941
+Config  : ./prerna.com/private/backups/20241229_180004-prerna_com-site_config_backup.json 94.0B
+Database: ./prerna.com/private/backups/20241229_180004-prerna_com-database.sql.gz         1.1MiB
+Backup for Site prerna.com has been successfully completed
